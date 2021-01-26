@@ -1,0 +1,23 @@
+﻿# instalação do django 3
+pip install Django==3.0.3
+
+# visualizar a versão do django
+django-admin --version
+
+# criação do projeto
+django-admin startproject nome_do_projeto
+
+# execução do servidor
+python manage.py runserver
+
+# criação do aplicativo
+python manage.py startapp nome_do_app
+
+# criação da classe de tabela
+python manage.py makemigrations
+
+# criação das tabelas no banco
+python manage.py migrate
+
+# criação do super usuário
+python manage.py createsuperuser
