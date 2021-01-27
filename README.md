@@ -10,7 +10,7 @@ O projeto consiste na criação de uma pagina Web que permite a inserção de da
 
 ## Instalação dos pacotes 
 
-Eu já possuia o [Python](https://www.python.org/downloads/)pip instalados na minha maquina, caso não tenha você deve instala-lo pois a lógicas e rotas serão criadas em python. 
+Eu já possuia o [Python](https://www.python.org/downloads/) pip instalados na minha maquina, caso não tenha você deve instala-lo pois a lógicas e rotas serão criadas em python. 
 O editor utilizado para a elaboração dos scripts foi o [VS Code](https://code.visualstudio.com/download)
 
 ### Flask
@@ -42,7 +42,6 @@ Execução do servidor:
 
 ```
 python run.py runserver
-
 ```
 
 
@@ -54,7 +53,6 @@ No termininal ou prompt de comando faça:
 
 ```
 pip install Django
-
 ```
 #### Criação do Projeto 
 
@@ -63,7 +61,6 @@ No Django, ao utilizar o comando:
 
 ```
 django-admin startproject nome_do_projeto
-
 ```
 O próprio Django já cria toda a estrutura para o desenvolvimento do app. 
 
@@ -73,35 +70,29 @@ Execução do servidor:
 
 ```
 python manage.py runserver
-
 ```
 
 Criação do aplicativo:
 
 ```
 python manage.py startapp nome_do_app
-
 ```
 
 Criação da classe de tabela:
-
 ```
 python manage.py makemigrations
-
 ```
 
 Criação das tabelas no banco:
 
 ```
 python manage.py migrate
-
 ```
 
 Criação do super usuário:
 
 ```
 python manage.py createsuperuser
-
 ```
 
 
