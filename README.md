@@ -11,12 +11,13 @@ Aplicações desenvolvidas durante o curso "Desenvolvimento Web com Flask e Djan
 
 É preciso ter o Python já instalado no seu computador! 
 
-´´´
+```
 pip install Flask
 pip install flask-sqlalchemy
 pip install flask-migrate
 pip install flask-script
-´´´
+
+```
 
 
 
